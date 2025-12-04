@@ -1,16 +1,21 @@
-# Compiled class file
+# ======================
+# Java / Spring Boot
+# ======================
+
+# Compiled class files
 *.class
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# Maven target folder
+kouger/backend/target/*
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Gradle build folders (if used)
+.gradle/
+build/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -18,7 +23,51 @@
 *.zip
 *.tar.gz
 *.rar
+*.lst
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Lombok generated files
+*.delombok.java
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ======================
+# Node / Next.js
+# ======================
+
+# Node modules
+frontend/node_modules/
+
+# Next.js build folders
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+
+# Environment variables (local only)
+frontend/.env.local
+frontend/.env.*.local
+
+# ======================
+# OS & Misc
+# ======================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Java Hotspot crash logs
 hs_err_pid*
 replay_pid*
