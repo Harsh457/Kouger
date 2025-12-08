@@ -1,13 +1,12 @@
-package com.kouger.backend.controller;
+package com.kouger.server.controller;
 
-import com.kouger.backend.model.User;
-import com.kouger.backend.service.UserService;
+import com.kouger.server.model.User;
+import com.kouger.server.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController

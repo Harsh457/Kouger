@@ -1,4 +1,4 @@
-package com.kouger.backend.model;
+package com.kouger.server.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,7 +1,7 @@
-package com.kouger.backend.service;
+package com.kouger.server.service;
 
-import com.kouger.backend.model.User;
-import com.kouger.backend.repository.UserRepository;
+import com.kouger.server.model.User;
+import com.kouger.server.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

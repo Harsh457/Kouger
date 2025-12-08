@@ -9,7 +9,7 @@
 *.log
 
 # Maven target folder
-kouger/backend/target/*
+server/target/*
 
 # Gradle build folders (if used)
 .gradle/
